@@ -335,3 +335,8 @@ window.addEventListener('load', () => {
         }
     }
 });
+
+function startChecking() {
+  document.getElementById("hero").style.display = "none";
+  document.getElementById("header-timer").style.display = "block";
+}
